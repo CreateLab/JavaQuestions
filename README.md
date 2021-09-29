@@ -31,6 +31,28 @@ double j = 0,
  p = 10 / 0;
 ```
 
+3. Написать калькулятор для больших чисел
+
+4. Какой результат работы кода?
+```java
+System.out.print(null);
+```
+
+5. Какой результат работы кода?
+```java
+ String abc = "abc";
+ String ab = "ab";
+ String c = "c";
+ String abc1 = "ab"+"c";
+ String abc2 = ab + c;
+ System.out.print(abc == abc1);
+ System.out.print(abc == abc2);
+```
+6. Какой результат работы кода? Напишите программу, которая выведет такой же результат.
+```java
+System.out.println(2.0 % 0);
+``` 
+
 ## Операторы и приоритеты
 1. 
 ```java
@@ -73,40 +95,18 @@ java Main
 ```
 Какие действия будут происходить при выполнении этих команд (какие файлы будут искаться, какие будут созданы, с чего начнётся исполнение программы...)
 
-2. Какой результат работы кода?
-```java
-Integer i1 = 128;
-Integer i2 = 128;
-System.out.println(i1 == i2);
+2. Поставить точку останова при помощи утилиты jdb и проверить значения переменных
 
-Integer i3 = 127;
-Integer i4 = 127;
-System.out.println( i3 == i4);
-```
-3. Написать калькулятор для больших чисел
+3. Что такое стек и куча?
 
-4. Какой результат работы кода?
+4. Утилита javap, чем отличается
 ```java
-System.out.print(null);
+int a = 1 + 1;
+int b = 1;
+int c = 1;
+int a1 = b + c;
 ```
 
-5. Какой результат работы кода?
-```java
- String abc = "abc";
- String ab = "ab";
- String c = "c";
- String abc1 = "ab"+"c";
- String abc2 = ab + c;
- System.out.print(abc == abc1);
- System.out.print(abc == abc2);
-```
-
-6. Что такое стек и куча?
-
-7. Какой результат работы кода? Напишите программу, которая выведет такой же результат.
-```java
-System.out.println(2.0 % 0);
-``` 
 -------------------
 
 # Lab2
@@ -132,6 +132,16 @@ public static void main(String[] args){
   }
 }
 ```
+
+3. Какой результат работы кода?
+```java
+Integer i1 = 128;
+Integer i2 = 128;
+System.out.println(i1 == i2);
+
+Integer i3 = 127;
+Integer i4 = 127;
+System.out.println( i3 == i4);
 -------------------
 
 # Lab 3
